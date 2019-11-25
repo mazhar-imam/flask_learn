@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    {% if title %}
+        <title>Blogpost-{{ title }}</title>
+    {% else %}
+        <title>Blogpost</title>
+    {% endif %}
+
+</head>
+<body bgcolor="areesha">
+    {% block content %}
+    {% endblock %}
+    
+</body>
+</html>
